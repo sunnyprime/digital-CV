@@ -11,6 +11,7 @@ import Project from './Pages/Project';
 import Website from './Pages/Website';
 import Default from './Pages/Default';
 import SideNav from './Component/SideNav';
+// import { Education } from './Pages/Education';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Navbar></Navbar>
       <div className="fluid-container">
         <div className="row">
-        <div className="col-12 col-lg-3 col-md-3 col-sm-12">
+        <div className="col-12 col-lg-3 col-md-3 col-sm-12 ml-4">
         <SideNav></SideNav>
         </div>        
         <div className="col-8">
@@ -31,8 +32,10 @@ function App() {
         <Route path="/Links" exact component={Links} />
         <Route path="/Project" exact component={Project} />
         <Route path="/Website" exact component={Website} />
+        <Route path="/Education" exact component={Education} />
         <Route component={Default} />
         </Switch>     
+        
         </div></div></div>
       </main>
     </Router>

@@ -7,27 +7,27 @@ class SideNav extends Component {
     render() {
         return (
             <div className="sidebar">
-            <h3>VIVEK KUMAR</h3>
+            <h3 className="mx-auto align-item-center">VIVEK KUMAR</h3>
             <h5>B.Tech(CSE)</h5>
-            <img src={img} alt="..." class="img-thumbnail" />
+            <img src={img} alt="..." className="img-thumbnail align-item-center" />
                 <br/><br/>
 
                 <h6>Personal Details:-</h6>
                 <ul className="list-groups">                
                 
-                    <li><b>Name:</b>{personal.name}</li>
-                    <li><b>Date of Birth:</b>{personal.dob}</li>
-                    <li><b>Nationality:</b>{personal.Nationality}</li>
-                    <li><b>Marital Status:</b>{personal.Marital}</li>
-                    <li><b>Language known:</b>{personal.Language}</li>
+                    <li><b>Name:</b> {personal.name}</li>
+                    <li><b>Date of Birth:</b> {personal.dob}</li>
+                    <li><b>Nationality:</b> {personal.Nationality}</li>
+                    <li><b>Marital Status:</b> {personal.Marital}</li>
+                    <li><b>Language known:</b> {personal.Language}</li>
                 </ul>
                 <h6>Contact Detail</h6>
                 <ul>
-                <li><b>Phone:</b>{contactData.phone}</li>
-                <li><b>Email:</b>{contactData.email}</li>
-                <li><b>Skype:</b>{contactData.skype}</li>
-                <li><b>Permanent Address:</b>{contactData.permanent_add}</li>
-                <li><b>Present Address:</b>{contactData.present_address}</li>
+                <li><b>Phone:</b> {contactData.phone}</li>
+                <li><b>Email:</b> {contactData.email}</li>
+                <li><b>Skype:</b> {contactData.skype}</li>
+                <li><b>Permanent Address:</b> {contactData.permanent_add}</li>
+                <li><b>Present Address:</b> {contactData.present_address}</li>
                 </ul>
             </div>
         );
