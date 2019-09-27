@@ -20,3 +20,19 @@
 .App-link {
   color: #09d3ac;
 }
+
+.sidebar{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black; 
+
+}
+.sidebar ul li{
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
+.centered {
+  padding:50px;
+  line-height:40px;
+}

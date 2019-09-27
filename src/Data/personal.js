@@ -1,6 +1,7 @@
-export const personalData = [
+export const personal = [
     {
         name: "Vivek kumar",
+        avatar:"https://avatars1.githubusercontent.com/u/32408813?s=400&u=6a7fc6dcd66e003b25bbfc9f2ed9cb366b13eec3&v=4",
         dob:"10/03/1994",
         Nationality: "Indian",
         Marital: "Single",
